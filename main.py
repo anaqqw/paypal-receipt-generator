@@ -425,11 +425,11 @@ def create_paypal_receipt_html(name, email, amount, recipient, date=None, transa
 
 if __name__ == "__main__":
     create_paypal_receipt_html(
-        name="Sneezedip",
-        email="sneezedip@test.com",
-        amount=100.00,
-        recipient="Test Name",
+        name="Tiara Anggraini",
+        email="Tiaraanggraini2512@gmail.com",
+        amount=45.00,
+        recipient="@Tiara2501",
         transaction_type="Payment",
-        currency="EUR",# Try "USD", "GBP", "BRL", "EUR" etc.
+        currency="USD",# Try "USD", "GBP", "BRL", "EUR" etc.
         lang="en"  # Try 'en', 'pt', or 'ar-eg'
     ) 
